@@ -6,3 +6,6 @@ Its my Impids no fire spew mod for RimWorld, as Impids having ability to todal e
 
 ### Features
 - Currently having compatibility with v1.5-v1.6.
+
+### Instructions
+- Go to Rimworld folder, put the folder `ImpidNoFireSpew` from the package into the `.\Mods` folder.
