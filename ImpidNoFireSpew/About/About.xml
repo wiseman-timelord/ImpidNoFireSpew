@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+  <name>Impid No Fire Spew</name>
+  <author>WiseTime</author>
+  <description>Removes the Fire Spew ability from all Impids by removing the associated gene.</description>
+  <packageId>WiseTime.ImpidNoFireSpew</packageId>
+  <modVersion>1.6.4</modVersion>
+  <supportedVersions>
+    <li>1.5</li>
+    <li>1.6</li>
+  </supportedVersions>
+  <modDependencies>
+    <li>
+      <packageId>Ludeon.RimWorld.Biotech</packageId>
+      <displayName>Biotech</displayName>
+    </li>
+  </modDependencies>
+  <loadAfter>
+    <li>Ludeon.RimWorld.Biotech</li>
+  </loadAfter>
+</ModMetaData>

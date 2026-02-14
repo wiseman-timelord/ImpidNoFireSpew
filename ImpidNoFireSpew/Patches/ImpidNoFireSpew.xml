@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+  <!-- Check if Biotech is loaded before applying -->
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Biotech</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <operations>
+        <li Class="PatchOperationRemove">
+          <xpath>/Defs/XenotypeDef[defName="Impid"]/genes/li[.='FireSpew']</xpath>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+</Patch>
